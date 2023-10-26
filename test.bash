@@ -1,5 +1,15 @@
 #!/bin/bash
 
-out=$(seq 5| ./plus)
+ng () {
+      echo NG at Line $1
+      res=1
+}
 
-[ "${out}" = 15 ] 
+res=0
+
+### I/O TEST ###
+out=$(seq 5 | ./plus)
+[ "${out}" = 15 ] || ng ${LINENO}
+
+[ "$res" = 0 ] && echo OK
+exit $ret
