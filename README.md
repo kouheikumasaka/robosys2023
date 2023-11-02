@@ -10,7 +10,6 @@
 
 ## plusコマンド
 ![test](https://github.com/kouheikumasaka/robosys2023/actions/runs/6727764458)
-↑ テスト結果を反映したバッジの画像が埋め込まれる。
 
 標準入力から読み込んだ数字を足す。
 
@@ -22,5 +21,6 @@
 
 ## テスト環境
 * Ubuntu
+
 
 * © 2023 Kouhei Kumasaka
