@@ -4,8 +4,7 @@
 ## インストール方法
 * 以下をコピーし、実行してください。
 ---
-$ git clone https://github.com/kouheikumasaka/robosys2023
-  
+$ git clone https://github.com/kouheikumasaka/robosys2023 
 ---
 ## ライセンス
 * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます.
@@ -19,9 +18,9 @@ $ git clone https://github.com/kouheikumasaka/robosys2023
 
 ## 使用例
 ---
-$ seq 5 / ./plus
+$ seq 5 / ./plus 
+---
 15
-
 ---
 
 ## 必要なソフトウェア
