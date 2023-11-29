@@ -3,13 +3,15 @@
 
 ## インストール方法
 * 以下をコピーし、実行してください。
+```
 
 $ git clone https://github.com/kouheikumasaka/robosys2023
-
+```
 実行後、以下のディレクトリに移動してください。
+```
 
 $ cd robosys2023
-
+```
 ## plusコマンド
 ![test](https://github.com/kouheikumasaka/robosys2023/actions/workflows/test.yml/badge.svg)
 
@@ -17,7 +19,11 @@ $ cd robosys2023
 
 ## 使用例
 * 使用例は以下になります。
+```
 
+$ seq 10 | ./plus
+55
+```
 ## 必要なソフトウェア
 * Python
   * テスト済み: 3.7〜3.10
